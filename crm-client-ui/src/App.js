@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginPage from './pages/LoginPage';
-
-function App() {
-  return (
-    <div className="App">
-      <LoginPage></LoginPage>
-    </div>
-  );
-}
-
-export default App;
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importDefault(require("react"));
+const LoginPage_1 = __importDefault(require("./pages/LoginPage"));
+const App = () => {
+    return react_1.default.createElement(LoginPage_1.default, null);
+};
+exports.default = App;
