@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>CRM</h1>
+      <LoginPage></LoginPage>
     </div>
   );
 }
